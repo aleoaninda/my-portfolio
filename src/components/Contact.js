@@ -1,5 +1,6 @@
 import React from 'react'
 import background from "../contact-background.jpg";
+import { SocialIcon } from "react-social-icons"
 
 export default function Contact(){
     return (
@@ -13,6 +14,14 @@ export default function Contact(){
                 </h1>
                 <p className="text-green-200 text-lg">Phone: 0401 333 250</p>
                 <p className="text-green-200 text-lg">Email: aleoaninda@gmail.com</p>
+                <p className="text-green-200 text-lg">My Resume: </p>
+                <SocialIcon 
+                        url="https://drive.google.com/file/d/1qrNTAzwo_EsaixEVmPOhnCJ5skBiZDZz/view?usp=sharing" 
+                        className="mr-4" 
+                        target="_blank" 
+                        fgColor="#fff" 
+                        style={{height: 35, width: 35}}
+                />
             </div>
             </section>
         </div>
