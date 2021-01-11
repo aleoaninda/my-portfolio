@@ -16,8 +16,8 @@ export default function NavBar(){
                     <NavLink 
                     activeClassName="text-red-100 bg-red-700" 
                     className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"
-                    to="/post">
-                        Blog Posts
+                    to="/about">
+                        About me
                     </NavLink>
                     <NavLink 
                     activeClassName="text-red-100 bg-red-700" 
@@ -28,9 +28,35 @@ export default function NavBar(){
                     <NavLink 
                     activeClassName="text-red-100 bg-red-700" 
                     className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"
-                    to="/about">
-                        About me!
+                    to="/experience">
+                        Experience
                     </NavLink>
+                    <NavLink 
+                    activeClassName="text-red-100 bg-red-700" 
+                    className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"
+                    to="/skills">
+                        Skills
+                    </NavLink>
+                    <NavLink 
+                    activeClassName="text-red-100 bg-red-700" 
+                    className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"
+                    to="/education">
+                        Education
+                    </NavLink>
+                    <NavLink 
+                    activeClassName="text-red-100 bg-red-700" 
+                    className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"
+                    to="/post">
+                        Blog Posts
+                    </NavLink>
+                    <NavLink 
+                    activeClassName="text-red-100 bg-red-700" 
+                    className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"
+                    to="/contact">
+                        Contact
+                    </NavLink>
+                    
+                    
                 </nav>
                 <div className="inline-flex py-3 px-3 my-6">
                     <SocialIcon 
