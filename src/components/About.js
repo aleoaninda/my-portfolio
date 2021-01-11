@@ -34,7 +34,7 @@ export default function About() {
           <img
             src={urlFor(author.authorImage).url()}
             className="rounded w-32 h-32 lg:w-64 lg:h-64 mr-8"
-            alt="Kapehe"
+            alt="Aleo"
           />
           <div className="text-lg flex flex-col justify-center">
             <h1 className="cursive text-6xl text-green-300 mb-4">
